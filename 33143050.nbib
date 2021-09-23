@@ -1,0 +1,119 @@
+PMID- 33143050
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210226
+LR  - 20210226
+IS  - 1422-0067 (Electronic)
+IS  - 1422-0067 (Linking)
+VI  - 21
+IP  - 21
+DP  - 2020 Oct 30
+TI  - The Tumor Microenvironment of Primitive and Metastatic Breast Cancer: Implications 
+      for Novel Therapeutic Strategies.
+LID - 10.3390/ijms21218102 [doi]
+LID - 8102
+AB  - Breast cancer evolves thanks to a dense and close interaction with the surrounding 
+      tumor microenvironment (TME). Fibroblasts, leukocytes, blood and lymphatic 
+      endothelial cells and extracellular matrix are the constituents of this entity, and 
+      they synergistically play a pivotal role in all of the stages of breast cancer 
+      development, from its onset to its metastatic spread. Moreover, it has been widely 
+      demonstrated that variations to the TME can correspond to prognosis variations. 
+      Breast cancer not only modulates the transformation of the environment within the 
+      mammary gland, but the same process is observed in metastases as well. In this 
+      minireview, we describe the features of TME within the primitive breast cancer, 
+      throughout its evolution and spread into the main metastatic sites.
+FAU - Zarrilli, Giovanni
+AU  - Zarrilli G
+AD  - Department of Medicine (DIMED), Surgical Pathology & Cytopathology Unit, University 
+      of Padua, 35121 Padua, Italy.
+FAU - Businello, Gianluca
+AU  - Businello G
+AD  - Department of Medicine (DIMED), Surgical Pathology & Cytopathology Unit, University 
+      of Padua, 35121 Padua, Italy.
+FAU - Dieci, Maria Vittoria
+AU  - Dieci MV
+AUID- ORCID: 0000-0002-3967-9861
+AD  - Medical Oncology 2, Istituto Oncologico Veneto IOV-IRCCS, 35128 Padua, Italy.
+AD  - Department of Surgery, Oncology and Gastroenterology (DISCoG), University of Padua, 
+      35121 Padua, Italy.
+FAU - Paccagnella, Silvia
+AU  - Paccagnella S
+AD  - Department of Medicine (DIMED), Surgical Pathology & Cytopathology Unit, University 
+      of Padua, 35121 Padua, Italy.
+FAU - Carraro, Valentina
+AU  - Carraro V
+AD  - Department of Medicine (DIMED), Surgical Pathology & Cytopathology Unit, University 
+      of Padua, 35121 Padua, Italy.
+FAU - Cappellesso, Rocco
+AU  - Cappellesso R
+AUID- ORCID: 0000-0002-0480-3412
+AD  - Department of Medicine (DIMED), Surgical Pathology & Cytopathology Unit, University 
+      of Padua, 35121 Padua, Italy.
+FAU - Miglietta, Federica
+AU  - Miglietta F
+AD  - Department of Surgery, Oncology and Gastroenterology (DISCoG), University of Padua, 
+      35121 Padua, Italy.
+FAU - Griguolo, Gaia
+AU  - Griguolo G
+AUID- ORCID: 0000-0002-8782-4509
+AD  - Medical Oncology 2, Istituto Oncologico Veneto IOV-IRCCS, 35128 Padua, Italy.
+AD  - Department of Surgery, Oncology and Gastroenterology (DISCoG), University of Padua, 
+      35121 Padua, Italy.
+FAU - Guarneri, Valentina
+AU  - Guarneri V
+AD  - Medical Oncology 2, Istituto Oncologico Veneto IOV-IRCCS, 35128 Padua, Italy.
+AD  - Department of Surgery, Oncology and Gastroenterology (DISCoG), University of Padua, 
+      35121 Padua, Italy.
+FAU - Lo Mele, Marcello
+AU  - Lo Mele M
+AD  - Surgical Pathology Unit, University Hospital of Padua, 35121 Padua, Italy.
+FAU - Fassan, Matteo
+AU  - Fassan M
+AUID- ORCID: 0000-0001-6515-5482
+AD  - Department of Medicine (DIMED), Surgical Pathology & Cytopathology Unit, University 
+      of Padua, 35121 Padua, Italy.
+LA  - eng
+GR  - 22759/Associazione Italiana per la Ricerca sul Cancro/
+GR  - NET-2016-02363853/Italian Health Ministry's research/
+PT  - Journal Article
+PT  - Review
+DEP - 20201030
+TA  - Int J Mol Sci
+JT  - International journal of molecular sciences
+JID - 101092791
+RN  - 0 (Antineoplastic Agents)
+SB  - IM
+MH  - Animals
+MH  - Antineoplastic Agents/*therapeutic use
+MH  - Breast Neoplasms/drug therapy/*immunology/pathology
+MH  - Female
+MH  - Humans
+MH  - Tumor Microenvironment/drug effects/*immunology
+PMC - PMC7662409
+OTO - NOTNLM
+OT  - breast cancer
+OT  - stroma
+OT  - tumor infiltrating lymphocytes
+OT  - tumor microenvironment
+COIS- The authors have no competing interests to declare related to the presented work. 
+      MVD reports personal fees from Genomic Health, EliLilly, Celgene, and Novartis for 
+      consultancy/advisory role, outside the submitted work. VG reports grants 
+      (Institution) and personal fees from Roche for consultancy/advisory role, personal 
+      fees from Novartis, and Eli Lilly for consultancy/advisory role, outside the 
+      submitted work. MF reports personal fees from Astellas Pharma, Diaceutics, and 
+      Tesaro for consultancy/advisory role, and research grant from Astellas Pharma and 
+      QED Therapeutics, outside the submitted work.
+EDAT- 2020/11/05 06:00
+MHDA- 2021/02/27 06:00
+CRDT- 2020/11/04 01:02
+PHST- 2020/09/19 00:00 [received]
+PHST- 2020/10/27 00:00 [revised]
+PHST- 2020/10/28 00:00 [accepted]
+PHST- 2020/11/04 01:02 [entrez]
+PHST- 2020/11/05 06:00 [pubmed]
+PHST- 2021/02/27 06:00 [medline]
+AID - ijms21218102 [pii]
+AID - ijms-21-08102 [pii]
+AID - 10.3390/ijms21218102 [doi]
+PST - epublish
+SO  - Int J Mol Sci. 2020 Oct 30;21(21):8102. doi: 10.3390/ijms21218102.
