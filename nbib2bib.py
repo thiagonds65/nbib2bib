@@ -1,5 +1,5 @@
  ##############################################
-## Script to convert .doc or .docx to .pdf  ##
+## Script to convert .nbib to bibTeX  ##
 ##         Written by Thiago Santos         ##
 ##############################################
 import os
