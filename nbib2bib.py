@@ -16,12 +16,12 @@ def n_files(directory):
             total += 1
     return total
 
-# Creates a new directory within current directory called PDFs
+# Creates a new directory within current directory called bibs
 def createFolder(directory):
     if not os.path.exists(directory + '/bibs'):
         os.makedirs(directory + '/bibs')
 
-# convert a doc/docx document to pdf format (requires libreoffice)
+# convert a nbib document to bib
 # :param doc: path to document
  
 if __name__ == "__main__":
@@ -38,9 +38,7 @@ if __name__ == "__main__":
     createFolder(directory)
 
     print('Starting conversion... \n')
-
-    # Opens each file with Microsoft Word and saves as a PDF
-    processes = []
+    
     try:
         files = [file for file in os.listdir(directory) if file.endswith('.nbib')]
         print(f"I find {len(files)} nbib files at folder {directory}")
