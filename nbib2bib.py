@@ -1,5 +1,5 @@
  ##############################################
-## Script to convert .nbib to bibTeX  ##
+##     Script to convert .nbib to bibTeX    ##
 ##         Written by Thiago Santos         ##
 ##############################################
 import os
