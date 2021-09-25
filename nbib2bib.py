@@ -56,7 +56,7 @@ if __name__ == "__main__":
     print('Starting conversion... \n')
 
     try:
-        print(f"I find {len(files)} nbib files at folder {directory}")
+        print(f"I've found {len(files)} nbib files in folder {directory}")
 
         with open(f'bibs/ref.bib', 'w') as output:
             for i, file in enumerate(files):
