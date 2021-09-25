@@ -47,18 +47,18 @@ if __name__ == "__main__":
             for i, file in enumerate(files):
                 ending = '.nbib'
 
-                f = open(file, "r")
-                for line in f:
-                    string = "doi"
-                    doi = ""
-                    
-                    if string in line: # checking if string is present in line
-                        # the doi begins after "PID - ", what means the 7th character (6th, when considered that python starts to count on 0)
-                        # the doi string ends before " " (blank space)
-                        doi = line[6:line.rfind(" ")]
-                        print(f"DOI {i+1}: {doi}")
-                        break 
-                
+                with open(file, "r") as f:
+                    for line in f:
+                        string = "doi"
+                        doi = ""
+
+                        if string in line: # checking if string is present in line
+                            # the doi begins after "PID - ", what means the 7th character (6th, when considered that python starts to count on 0)
+                            # the doi string ends before " " (blank space)
+                            doi = line[6:line.rfind(" ")]
+                            print(f"DOI {i+1}: {doi}")
+                            break
+
                 if os.path.getsize(file) == 0 or doi == "":
                     print(f"Can't find DOI in {file}.")
                     continue
