@@ -1,29 +1,25 @@
- ##############################################
-##     Script to convert .nbib to bibTeX    ##
-##         Written by Thiago Santos         ##
-##############################################
+##################################################################
+'''Script to convert .nbib to bibTeX. Written by Thiago Santos.'''
+##################################################################
 import os
 from time import strftime
 from time import sleep, time
 import urllib.request as req
 from urllib.error import HTTPError
-    
-# Counts the number of files in the directory that can be converted
+
 def n_files(directory):
+    '''Counts the number of files in the directory that can be converted'''
     total = 0
     for file in os.listdir(directory):
         if (file.lower().endswith('.nbib')):
             total += 1
     return total
 
-# Creates a new directory within current directory called bibs
 def createFolder(directory):
+    '''Creates a new directory within current directory called bibs'''
     if not os.path.exists(directory + '/bibs'):
         os.makedirs(directory + '/bibs')
 
-# convert a nbib document to bib
-# :param doc: path to document
- 
 if __name__ == "__main__":
     input('Press enter to continue...')
     
