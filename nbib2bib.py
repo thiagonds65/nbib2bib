@@ -15,14 +15,15 @@ def n_files(directory):
             total += 1
     return total
 
-def createFolder(directory):
+def create_bibs_folder(directory):
     '''Creates a new directory within current directory called bibs'''
+    directory = os.path.join(directory, 'bibs')
     if not os.path.exists(directory + '/bibs'):
         os.makedirs(directory + '/bibs')
 
 if __name__ == "__main__":
     input('Press enter to continue...')
-    
+
     ti = time()
 
     directory = os.getcwd()
@@ -31,18 +32,18 @@ if __name__ == "__main__":
         print('There are no files to convert')
         exit()
 
-    createFolder(directory)
+    create_bibs_folder(directory)
 
     print('Starting conversion... \n')
-    
+
     try:
         files = [file for file in os.listdir(directory) if file.endswith('.nbib')]
         print(f"I find {len(files)} nbib files at folder {directory}")
         new_file = "./bibs"
-        
+
         BASE_URL = 'http://dx.doi.org/'
-        
-        with open(f'bibs/ref.bib', 'w') as the_file:
+
+        with open(f'bibs/ref.bib', 'w') as output:
             for i, file in enumerate(files):
                 ending = '.nbib'
 
@@ -74,11 +75,11 @@ if __name__ == "__main__":
                         print('DOI not found')
                     else:
                         print('Service unavailable')
-                                
-                the_file.write(f'{bib}\n\n')
-            
-            the_file.close()
-            
+
+                output.write(f'{bib}\n\n')
+
+            output.close()
+
         tf = time()
         print(f"Processing time: {tf-ti}")
         input("Press enter to finish process...")
